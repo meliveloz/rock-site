@@ -1,0 +1,158 @@
+.nav{
+	background-color: #343a40;
+	color: #abadb0;
+	font-family: 'Montserrat', sans-serif;
+	height: 3em;
+}
+.navrow{
+
+}
+.bootstrap{
+	display: inline-block;
+	font-size: 1em;
+	margin-right: 52%;
+}
+.menu{
+	list-style: none;
+	display: inline-block;
+}
+.menulist{
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 1em;
+}
+
+.bootstrap:hover,.menulist:hover{
+	color:white;
+	cursor: pointer;
+	
+}
+
+.principal{
+	background-image: url(../img/header.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:35em;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.ceropadding{
+	padding: 0;
+}
+.navrow{
+	padding-top: 1em;
+    padding-left: 3em;
+}
+.maintitle{
+	color: white;
+	filter: brightness(1);
+	font-size: 3.5em;
+	margin-top: 4em;
+	margin-bottom: 0.3em;
+
+
+}
+.mainsubtitle{
+	color: white;
+	font-size: 2em;
+	}
+
+.aboutrock{
+	color:#86888b;
+	font-family: 'Montserrat', sans-serif;
+}
+.guitarwoman{
+	border-radius: 50%;
+	width: 60%;
+	display: inline-block;
+	margin-left: 6em;
+	margin-top: 2em;
+}
+
+.titleaboutrock{
+	text-align: justify;
+	padding-top: 4em;
+	padding-left: 3em;
+	font-size: 1.5em;
+}
+.aboutrockparagraph{
+	padding-left: 4.5em;
+}
+
+.salute{
+	color:#86888b;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+
+.photosalute{
+	width: 60%;
+	border-radius: 50%;
+	margin-left: 4em;
+	margin-top: 2em;
+}
+
+.titlesalute{
+	padding-top: 5em;
+}
+
+.berock{
+	color:#86888b;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+.photoartist{
+	border-radius: 50%;
+	width: 60%;
+	display: inline-block;
+	margin-left: 6em;
+	margin-top: 2em;
+}
+.titleberock{
+	text-align: justify;
+	padding-top: 4em;
+	padding-left: 3em;
+	font-size: 1.5em;
+}
+.copyright{
+	background-color: #343a40;
+	color: #abadb0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 1em;
+}
+.fa-bars{
+	display: none;
+	color: #abadb0;
+	font-size: 1em;
+}
+
+@media (min-width:0) and (max-width: 824px) {
+
+	[class*="col-"]{
+		width: 100%;
+	}
+	.fa-bars{
+		display: inline-block;
+		border: 1px solid #abadb0;
+		padding: 0.3em;
+		border-radius: 0.2em;
+	}
+	.fa-bars:hover{
+		color:white;
+	}
+	.menu{
+		display: none;
+	}
+	.maintitle{
+		margin-top: 0.5em;
+		font-size: 4em;
+	}
+	.principal{
+		background-size: cover;
+	}
+	.bootstrap{
+	margin-right: 30%;
+}
+}
